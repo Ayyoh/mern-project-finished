@@ -12,7 +12,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <div className='text-white flex flex-col xl:grid xl:grid-cols-5 gap-4'>
+            <div className='text-white grid grid-cols-1 justify-center items-center xl:grid xl:grid-cols-5 gap-4'>
                 {products.map((product) => (
                     <ProductDetails key={product._id} product={product} />
                 ))}
